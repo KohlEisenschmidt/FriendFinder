@@ -33,9 +33,7 @@ module.exports = function(app){
                     //find difference of scores array
                     difference += Math.abs(friends[i].scores[j]-newfriend.scores[j]);
                     console.log(difference);
-                
-                    //update best matches once better match is found
-
+                    //update best matches once better match is foun
                 }
                 console.log("total difference " + difference);
                 if (difference < lowestdiff){
@@ -45,12 +43,7 @@ module.exports = function(app){
                     console.log(bestmatch);
                 }
             }
-            
             friends.push(newfriend);
             res.json(bestmatch);
     });
-
-    //
-
-
 }
