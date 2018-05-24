@@ -1,15 +1,14 @@
 body {
-    background: url("../images/getty_542291608_205616 (1).jpg" );
+    background: url("../images/highfive.jpg" );
     size: 100%;
     background-repeat: no-repeat;
     background-size: auto;
     height: 100%;
      width: 100%;
-    /* z-index: 10; */
-    /* background: black */
 }
 
 .jumbotron{
+    margin-top: 30px;
     opacity: 0.6;
 }
 
