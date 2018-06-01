@@ -1,0 +1,40 @@
+ 
+body {
+    background: url("../images/highfive.jpg" ) !important;
+    size: 100% !important;
+    background-repeat: no-repeat !important;
+    background-size: auto !important;
+    background-attachment: fixed !important;
+    height: 100% !important;
+     width: 100% !important;
+}
+
+.bg{
+    background: url("../../assets/images/highfive.jpg" ) !important;
+    size: 100% !important;
+    background-repeat: no-repeat !important;
+    background-size: auto !important;
+    background-attachment: fixed !important;
+    height: 100% !important;
+     width: 100% !important;
+}
+/* .data-gr-c-s-loaded */
+/* .container{
+    background: url("../../assets/images/highfive.jpg" );
+    size: 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    height: 100%;
+     width: 100%;
+} */
+
+.jumbotron{
+    margin-top: 30px;
+    opacity: 0.6;
+    /* max-width: 700px; */
+}
+
+.btn-primary {
+    opacity: 1.0;
+}
